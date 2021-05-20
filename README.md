@@ -13,7 +13,7 @@ In the project directory, you can run (Local):
 
 http://localhost:3000/bcfm
 
-C:\Users\secil\Desktop\react\reactapp\Uygulama.PNG
+![](Uygulama.png)
 
 # CI-CD / Azure Devops
 
