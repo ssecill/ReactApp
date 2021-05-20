@@ -43,6 +43,13 @@ helm upgrade bhelm  $(System.DefaultWorkingDirectory)/_BCFM/helm --reuse-values 
 * http://secil.tech/bcfm
 * docker pull secilns/bcfm:127v
 
+Not : Cluster Google Cloud üzerinde 
+
+```
+gcloud container clusters create cluster-1
+```
+
+ile kurulmuştur. 
 
 
 
