@@ -15,7 +15,7 @@ http://localhost:3000/bcfm
 
 ![](Uygulama.PNG)
 
-# CI-CD / Azure Devops
+# CI-CD / Azure Devops - https://dev.azure.com/secilnurr/BCFM
 
 * Commit Atıldığında Pipeline tetiklenmesi aşağıdaki şekilde sağlanmıştır.
 
