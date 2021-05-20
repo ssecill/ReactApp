@@ -41,6 +41,7 @@ helm upgrade bhelm  $(System.DefaultWorkingDirectory)/_BCFM/helm --reuse-values 
  # Uygulama secil.tech uzerinden load balancer'a yönlendirilmiştir.
 
 * http://secil.tech/bcfm
+* docker pull secilns/bcfm:127v
 
 
 
