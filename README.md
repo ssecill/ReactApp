@@ -13,19 +13,22 @@ In the project directory, you can run (Local):
 
 http://localhost:3000/bcfm
 
-![](Uygulama.png)
+![](Uygulama.PNG)
 
 # CI-CD / Azure Devops
 
 * Commit Atıldığında Pipeline tetiklenmesi aşağıdaki şekilde sağlanmıştır.
+
+  ![](CommitContiniousIntegration.PNG)
   
-  C:\Users\secil\Desktop\react\reactapp\CommitContiniousIntegration.PNG
 * Pipeline Sonar Qube Taramasından Geçirilmiştir.
   
-  C:\Users\secil\Desktop\react\reactapp\Pipeline.PNG
+  ![](Pipeline.PNG)
+  
 * Quality Gate Check 
 
-  C:\Users\secil\Desktop\react\reactapp\QualityGateCheck.PNG
+  ![](QualityGateCheck.PNG)
+  
 * Helm Deploy
   
 ```
@@ -33,7 +36,9 @@ helm upgrade bhelm  $(System.DefaultWorkingDirectory)/_BCFM/helm --reuse-values 
 ```
 * Auto Scale
 
-C:\Users\secil\Desktop\react\reactapp\HpaCpuAutoscale.PNG
+ ![](HpaCpuAutoscale.PNG)
+ 
+ # Uygulama secil.tech uzerinden load balancer'a yönlendirilmiştir.
 
 * http://secil.tech/bcfm
 
