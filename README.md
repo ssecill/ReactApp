@@ -12,7 +12,7 @@ In the project directory, you can run (Local):
 
 http://localhost:3000/bcfm
 
-# CI-CD / Azure Devops - https://dev.azure.com/secilnurr/BCFM
+* CI-CD / Azure Devops - https://dev.azure.com/secilnurr/BCFM
   
 * Helm Deploy
   
