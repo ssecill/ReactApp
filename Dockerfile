@@ -18,14 +18,3 @@ RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx/nginx.conf /etc/nginx/conf.d
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
-
-
-# a default value
-ENV foo /bar
-# or ENV foo=/bar
-
-# ENV values can be used during the build
-ADD . $foo
-# or ADD . ${foo}
-# translates to: ADD . /bar
-RUN echo $foo
