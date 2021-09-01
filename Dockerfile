@@ -19,8 +19,7 @@ COPY nginx/nginx.conf /etc/nginx/conf.d
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
-# no default value
-ENV hey
+
 # a default value
 ENV foo /bar
 # or ENV foo=/bar
