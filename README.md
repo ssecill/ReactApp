@@ -19,8 +19,6 @@ http://localhost:3000/bcfm
 ```
 helm upgrade bhelm  $(System.DefaultWorkingDirectory)/_BCFM/helm --reuse-values --set containers.imageName=secilns/bcfm:$(Build.BuildId)v
 ```
-
-* http://secil.tech/bcfm
 * docker pull secilns/bcfm:127v
 
 ```
