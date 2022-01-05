@@ -10,16 +10,16 @@ In the project directory, you can run (Local):
 
 ### `npm start`
 
-http://localhost:3000/bcfm
+http://localhost:3000/secill
 
-* CI-CD / Azure Devops - https://dev.azure.com/secilnurr/BCFM
+* CI-CD / Azure Devops - https://dev.azure.com/secilnurr/secill
   
 * Helm Deploy
   
 ```
-helm upgrade bhelm  $(System.DefaultWorkingDirectory)/_BCFM/helm --reuse-values --set containers.imageName=secilns/bcfm:$(Build.BuildId)v
+helm upgrade bhelm  $(System.DefaultWorkingDirectory)/_secill/helm --reuse-values --set containers.imageName=secilns/secill:$(Build.BuildId)v
 ```
-* docker pull secilns/bcfm:127v
+* docker pull secilns/secill:127v
 
 ```
 gcloud container clusters create cluster-1

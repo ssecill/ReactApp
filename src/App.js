@@ -12,7 +12,7 @@ export default function ParamsExample() {
   return (
     <Router>
       <div>
-            <Link to="/bcfm"></Link>
+            <Link to="/secill"></Link>
         <Switch>
           <Route path="/:id" children={<Child />} />
         </Switch>
