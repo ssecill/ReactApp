@@ -5,7 +5,7 @@ FROM 762470240350.dkr.ecr.eu-west-1.amazonaws.com/my-common-image-repo:node-14-5
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package*.json /app/
-RUN npm install --silent
+RUN npm install 
 RUN npm install react-scripts@3.4.1 -g --silent
 COPY . /app
 RUN npm run-script build
